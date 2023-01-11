@@ -15,3 +15,18 @@ function reverseWords(str) {
     return newArr.join(" ")
   //   return arr.reverse().join("")
   }
+
+//my fav
+function reverseWords(str) {
+    // Go for it
+    //split words into seperate arrays
+    return str.split("").reverse().join("").split(" ").reverse().join(" ");
+  }
+
+
+  //top way
+  function reverseWords(str) {
+    return str.split(' ').map(function(word){
+      return word.split('').reverse().join('');
+    }).join(' ');
+  }
