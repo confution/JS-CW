@@ -2,7 +2,7 @@
 
 Currently progressing and leveling up, as of Jan 2023, I am at 6KYU level.
 
-## How It's Made:
+## How It's Made
 
 **Tech used:** JavaScript
 
